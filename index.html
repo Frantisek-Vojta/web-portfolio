@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Combined CSS -->
+    <title>Portfolio - František Vojta</title>
+</head>
+<body>
+<header>
+    <a href="#" class="logo">xCel_dev</a>
+    <nav>
+        <a href="#home" class="active">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section id="home" class="home">
+    <div class="home-img">
+        <img src="imgs/main.jpg" alt="František's image">
+    </div>
+    <div class="home-content">
+        <h1>Hi, I'm <span>František</span></h1>
+        <h3 class="typing-text">I'm also <span id="type-effect"></span>.</h3>
+        <p>My name is František Vojta, and I specialize in developing custom tools and applications. My projects range
+            from Minecraft scripts to Discord bots. Currently, I am working alongside <a
+                    href="https://discord.com/users/1064940406560788540" target="_blank"
+                    style="color: #00b0b9;">Kub94ek</a>, where we focus on providing top-notch solutions for Minecraft
+            and Discord. We also proudly hold the <strong>Active Developer badge</strong> on Discord! You can explore
+            more of his work on <a href="https://github.com/Kub94ekCZ" target="_blank"
+                                   style="color: #00b0b9;">GitHub</a>.</p>
+
+        <div class="social-icons">
+            <a href="https://github.com/Frantisek-Vojta" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://discord.com/users/1188078918104784957" target="_blank"><i class="fa-brands fa-discord"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+        <a href="#contact" class="btn">Hire me</a>
+    </div>
+</section>
+
+
+<section id="projects" class="portfolio">
+    <h2>My Projects</h2>
+    <div class="portfolio-container">
+        <div class="portfolio-item">
+            <img src="imgs/bot-icon.webp" alt="Project 1">
+            <h3>mr. Koblizek</h3>
+            <p>The best discord bot on earth, </p>
+            <p>add him on your discord bot <a
+                    href="https://discord.com/oauth2/authorize?client_id=1346908051592187914&permissions=8&integration_type=0&scope=bot"
+                    target="_blank" style="color: #00b0b9;"><strong>HERE</strong></a></p>
+            <p>source: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank"
+                          style="color: #00b0b9"><strong>HERE</strong></a></p>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/Untitled.png" alt="Project 2">
+            <h3>Commands from discord to minecraft</h3>
+            <p>This does that you can send minecraft commands from discord</p>
+            <p>source: <a href="https://github.com/Frantisek-Vojta/minecraft-commands-from-dis" target="_blank"
+                          style="color: #00b0b9;"><strong>HERE</strong></a></p>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/git.webp" alt="Project 3">
+            <h3>auto commit and push</h3>
+            <p>Easy script that will commit and push folder to git and GitHub.</p>
+            <p>source: <a href="#" target="_blank" style="color: #00b0b9"><strong>not published yet</strong></a> </p>
+        </div>
+        <div class="portfolio-item">
+            <img src="imgs/iconn.png" alt="project 4">
+            <h3>RPG game</h3>
+            <p>rpg game in java, i did this </p> <p>to try GUI in java</p>
+            <p>source: <a href="https://github.com/Frantisek-Vojta/Game" target="_blank" style="color: #00b0b9"><strong>HERE</strong></a> </p>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-item">
+            <h3>Java</h3>
+            <p>Junior developer experience with discord bots</p>
+        </div>
+        <div class="skill-item">
+            <h3>Discord Bot Developer (JDA)</h3>
+            <p>Experienced in creating Discord bots using Java and the JDA library.</p>
+        </div>
+        <div class="skill-item">
+            <h3>Python</h3>
+            <p>Junior developer with experience in ...</p>
+        </div>
+        <div class="skill-item">
+            <h3>Git & Version Control</h3>
+            <p>Experienced in using Git and GitHub for collaboration and project management.</p>
+        </div>
+        <div class="skill-item">
+            <h3>Web Development</h3>
+            <p>I create modern and responsive websites.</p>
+        </div>
+        <div class="skill-item">
+            <h3>soon</h3>
+            <p>soon</p>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact" class="contact">
+
+    <div class="contact-info">
+        <h2>Contact Me</h2>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/Frantisek-Vojta" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://discord.com/users/1188078918104784957" target="_blank"><i
+                        class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+    </div>
+</section>
+
+
+<footer>
+
+</footer>
+
+<script src="scripts.js"></script>
+</body>
+</html>
